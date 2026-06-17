@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 model = YOLO(
-    r"C:\Users\lucas\OneDrive\Documentos\UNITRI\PokerVisionAI\best.pt"
+    r"C:\Users\lucas\OneDrive\Documentos\UNITRI\PokerVisionAI\backend\best.pt"
 )
 
 
