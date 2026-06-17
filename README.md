@@ -184,7 +184,7 @@ Poker Analyzer
 Resultado
 ```
 
-![Arquitetura](docs/architecture.png)
+![Arquitetura](docs/architeture.png)
 
 ---
 
