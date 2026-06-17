@@ -128,12 +128,15 @@ Essa divisão foi utilizada para garantir que o modelo fosse treinado, validado 
 | mAP50     | 99,50%    |
 | mAP50-95  | 81,91%    |
 
-### Gráficos
+## Gráficos
 
-Inserir no repositório:
+### Curva de Treinamento
 
-* results.png
-* confusion_matrix.png
+![Results](results.png)
+
+### Matriz de Confusão
+
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
@@ -181,9 +184,7 @@ Poker Analyzer
 Resultado
 ```
 
-Adicionar também uma imagem chamada:
-
-architecture.png
+![Arquitetura](architecture.png)
 
 ---
 
