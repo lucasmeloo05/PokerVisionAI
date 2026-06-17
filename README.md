@@ -265,17 +265,21 @@ PokerVisionAI
 ├── backend
 │   ├── api.py
 │   ├── poker_analyzer.py
-│   └── best.pt
+│   ├── best.pt
+│   └── requirements.txt
 │
 ├── frontend
 │   ├── src
-│   └── public
+│   ├── public
+│   ├── package.json
+│   └── vite.config.js
 │
-├── results.png
-├── confusion_matrix.png
-├── architecture.png
-├── README.md
-└── requirements.txt
+├── docs
+│   ├── results.png
+│   ├── confusion_matrix.png
+│   └── architecture.png
+│
+└── README.md
 ```
 
 ---
@@ -285,12 +289,15 @@ PokerVisionAI
 ### Backend
 
 ```bash
-uvicorn backend.api:app --reload
+cd backend
+pip install -r requirements.txt
+uvicorn api:app --reload
 ```
 
 ### Frontend
 
 ```bash
+cd frontend
 npm install
 npm run dev
 ```
