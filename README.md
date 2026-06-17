@@ -132,11 +132,11 @@ Essa divisão foi utilizada para garantir que o modelo fosse treinado, validado 
 
 ### Curva de Treinamento
 
-![Results](results.png)
+![Results](docs/results.png)
 
 ### Matriz de Confusão
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](docs/confusion_matrix.png)
 
 ---
 
@@ -184,7 +184,7 @@ Poker Analyzer
 Resultado
 ```
 
-![Arquitetura](architecture.png)
+![Arquitetura](docs/architecture.png)
 
 ---
 
