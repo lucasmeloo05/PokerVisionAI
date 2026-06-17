@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import tempfile
 import os
 
-from backend.poker_analyzer import analyze_hand
+from poker_analyzer import analyze_hand
 
 app = FastAPI()
 
