@@ -1,0 +1,69 @@
+# ======================
+# DATASETS
+# ======================
+
+dataset/
+dataset_yolo/
+dataset_roboflow/
+
+# ======================
+# TREINAMENTOS YOLO
+# ======================
+
+runs/
+training/
+
+# ======================
+# SCRIPTS AUXILIARES
+# ======================
+
+scripts/
+continue_training.py
+test_model.py
+
+# ======================
+# IMAGENS DE TESTE
+# ======================
+
+3copas.jpg
+7espadas.jpg
+8copas.png
+10copas.jpg
+aespadas.jpg
+j.jpg
+maoforte.png
+rei.png
+Screenshot*.png
+
+# ======================
+# PYTHON
+# ======================
+
+__pycache__/
+*.pyc
+
+# ======================
+# NODE
+# ======================
+
+frontend/node_modules/
+
+# ======================
+# VS CODE
+# ======================
+
+.vscode/
+
+# ======================
+# AMBIENTE VIRTUAL
+# ======================
+
+venv/
+.env
+
+# ======================
+# MODELOS BASE YOLO
+# ======================
+
+yolo11n.pt
+yolo26n.pt
