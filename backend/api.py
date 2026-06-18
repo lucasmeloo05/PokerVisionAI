@@ -16,8 +16,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+BASE_DIR = os.path.dirname(__file__)
+
 model = YOLO(
-    r"C:\Users\lucas\OneDrive\Documentos\UNITRI\PokerVisionAI\backend\best.pt"
+    os.path.join(BASE_DIR, "best.pt")
 )
 
 
